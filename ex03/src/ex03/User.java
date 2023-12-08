@@ -5,6 +5,7 @@ public class User {
 	private static String pw;
 	private String name;
 	private int age;
+	private int grade;
 	private String address;
 	private String gender;
 	
@@ -33,6 +34,13 @@ public class User {
 	}
 	public void setAge(int age) {
 		this.age=age;
+	}
+	public void getGrade(){
+		return grade;
+
+	}
+	public void setGrade(int grade){
+		User.grade=grade;
 	}
 	public String getName() {
 		return name;
